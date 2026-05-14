@@ -1,8 +1,9 @@
 # locke-sim-data
-The official annotated dataset of the NLP4DH 2026 paper "Matching Meaning at Scale: Evaluating Semantic Search for 18th-Century Intellectual History through the Case of Locke".
+This repository provides the official annotated dataset for the NLP4DH 2026 paper: "[Matching Meaning at Scale: Evaluating Semantic Search for 18th-Century Intellectual History through the Case of Locke](https://arxiv.org/pdf/2605.09236)".
 
+🕵 [Interactive Demo](https://receptionreader.com/semantic) — Explore flexible and multilingual semantic search across 18th-century historical texts.
 
-## Overview
+## Introduction
 While digitized corpora have transformed the study of intellectual transmission, current methods rely heavily on lexical text reuse detection, capturing verbatim quotations but fundamentally missing paraphrases and complex implicit engagement. This paper evaluates semantic search in 18th-century intellectual history through the reception of John Locke's foundational work. Using expert annotation grounded in a semantic taxonomy, we examine whether an off-the-shelf semantic search pipeline can surface meaning-level correspondences overlooked by lexical methods. Our results demonstrate that semantic search retrieves substantially more implicit receptions than lexical baselines. However, linguistic diagnostics also reveal a "lexical gatekeeping" effect, where retrieval remains partially constrained by surface vocabulary overlap. These findings highlight both the potential and the limitations of semantic retrieval for analyzing the circulation of ideas in large historical corpora.
 
 In this repository, we share the annotated dataset used in the paper, which includes manual annotation results for three rounds of evaluation, along with bibliographic metadata for the final set of hits. The dataset is intended to support further research on semantic search evaluation and intellectual history analysis.
