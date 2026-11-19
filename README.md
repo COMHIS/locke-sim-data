@@ -106,7 +106,34 @@ This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 I
 
 
 ## Citation
-If you use this dataset, please cite the associated paper. BibTeX will be provided upon publication.
+If you use this dataset, please cite the associated paper:
+```
+@inproceedings{wu-etal-2026-matching,
+    title = "Matching Meaning at Scale: Evaluating Semantic Search for 18th-Century Intellectual History through the Case of Locke",
+    author = "Wu, Yu  and
+      Mahadevan, Ananth  and
+      Ginter, Filip  and
+      Mathioudakis, Michael  and
+      Tolonen, Mikko",
+    editor = {Hamilton, Sil  and
+      {\"O}hman, Emily  and
+      Hicke, Rebecca M. M.  and
+      Bizzoni, Yuri  and
+      Bax, Axel  and
+      Matthews, Jacob A.  and
+      H{\"a}m{\"a}l{\"a}inen, Mika},
+    booktitle = "Proceedings of the 6th International Conference on Natural Language Processing for the Digital Humanities",
+    month = jul,
+    year = "2026",
+    address = "San Diego, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.nlp4dh-1.20/",
+    doi = "10.18653/v1/2026.nlp4dh-1.20",
+    pages = "214--225",
+    ISBN = "979-8-89176-427-9",
+    abstract = "While digitized corpora have transformed the study of intellectual transmission, current methods rely heavily on lexical text reuse detection, capturing verbatim quotations but fundamentally missing paraphrases and complex implicit engagement. This paper evaluates semantic search in 18th-century intellectual history through the reception of John Locke{'}s foundational work. Using expert annotation grounded in a semantic taxonomy, we examine whether an off-the-shelf semantic search pipeline can surface meaning-level correspondences overlooked by lexical methods. Our results demonstrate that semantic search retrieves substantially more implicit receptions than lexical baselines. However, linguistic diagnostics also reveal a ``lexical gatekeeping'' effect, where retrieval remains partially constrained by surface vocabulary overlap. These findings highlight both the potential and the limitations of semantic retrieval for analyzing the circulation of ideas in large historical corpora. The data is available at \url{https://github.com/COMHIS/locke-sim-data}."
+}
+```
 
 
 ## Contact
